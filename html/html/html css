@@ -1,0 +1,77 @@
+Index  HTML
+
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+      <h1>Colégio Estadual André Andreatta</h1>
+
+   </header> 
+   <nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Turmas</a></li>
+        <li><a href="">Professores</a></li>
+        <li><a href="">Horários</a></li>
+        <li><a href="">Contatos</a></li>
+    </ul>
+   </nav>
+   <main>
+
+   </main>
+   <footer>
+
+   </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+*{
+    margin:0;
+}
+body{
+    background-color: blue;
+}
+h1{
+    color:azure;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display:block;
+    color:blue;
+    text-decoration: none;
+    padding: 14px 16px;
+}
